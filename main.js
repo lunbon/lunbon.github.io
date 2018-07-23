@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	$('.info-button').on('click',function(e){
+		$('.selected').removeClass('selected');
+		$(this).addClass('selected');
+	});
+	$('#tech').on('click',function(e){
+		$('.text').addClass('hide');
+		$('#tech-info').removeClass('hide');
+	});
+	$('#about').on('click',function(e){
+		$('.text').addClass('hide');
+		$('#about-info').removeClass('hide');
+	});
+	$('#projects').on('click',function(e){
+		$('.text').addClass('hide');
+		$('#projects-info').removeClass('hide');
+	});
+	$('#contacts').on('click',function(e){
+		$('.text').addClass('hide');
+		$('#contact-info').removeClass('hide');
+	});
+});

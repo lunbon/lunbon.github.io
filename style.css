@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin-top:5%;
+	width: 70%;
+	margin-left: 15%;
+	background-image: url('brick.jpg');	
+}
+.hide{
+	display: none;
+	
+}
+.info-button{
+	background-image: url('old_paper/old_paper7.jpg');
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1em;
+	height: 3em;
+	padding-top: 0.6em;
+}
+
+.selected{
+		background-image: url('back2.jpg');
+		background-size: 350%;
+	background-position:center center;
+}
+.content{
+	height: 500px;
+	padding: 20px;
+	background-image: url('back.jpg');
+	background-size: 110%;
+	background-position:center center;
+}
+.content img{
+	width:400px;
+	height: auto;
+	float: right;
+	padding: 5px;
+}
+.content hr{
+	margin-top:50px;
+}
